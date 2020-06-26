@@ -295,7 +295,7 @@ status_fh.setFormatter(formatter)
 ####
 # Logger Initialization
 ####
-threepio.initialize(
+atmo_logger.initialize(
     "atmosphere",
     log_filename=LOG_FILENAME,
     app_logging_level=LOGGING_LEVEL,
