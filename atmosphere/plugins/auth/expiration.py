@@ -2,7 +2,7 @@ import pytz
 
 from django.utils import timezone
 from django_cyverse_auth.protocol.ldap import lookupUser
-from threepio import logger
+from atmo_logger import logger
 
 
 class ExpirationPlugin(object):
