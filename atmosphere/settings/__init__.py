@@ -10,7 +10,7 @@ import logging
 from celery.schedules import crontab
 import os
 import os.path
-import threepio
+import atmo_logger
 import atmosphere
 
 # Debug Mode
