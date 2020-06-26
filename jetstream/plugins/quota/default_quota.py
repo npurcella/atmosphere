@@ -1,5 +1,5 @@
 import django
-from threepio import logger
+from atmo_logger import logger
 
 import atmosphere.plugins.quota.default_quota
 from jetstream.allocation import TASAPIDriver, fill_user_allocation_source_for
