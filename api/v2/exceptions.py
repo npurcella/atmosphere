@@ -2,7 +2,7 @@
 # They may be migrated back into api/exceptions.py when v1 is deprecated.
 from rest_framework import status
 from rest_framework.response import Response
-from threepio import logger, api_logger
+from atmo_logger import logger, api_logger
 
 
 def failure_response(status, message):
