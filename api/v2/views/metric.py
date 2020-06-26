@@ -11,7 +11,7 @@ from api.v2.exceptions import failure_response
 
 from core.models import Instance
 from core.metrics.instance import get_instance_metrics
-from threepio import logger
+from atmo_logger import logger
 
 
 class MetricViewSet(GenericViewSet):
