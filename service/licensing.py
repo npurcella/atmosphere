@@ -5,7 +5,7 @@
 from django.core.validators import URLValidator
 from django.core.exceptions import ValidationError
 
-from threepio import logger
+from atmo_logger import logger
 
 
 def _test_license(license, identity):
