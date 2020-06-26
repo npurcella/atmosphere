@@ -46,9 +46,9 @@ python-ldap
 uWSGI
 
 ## ours
+atmo_logger
 chromogenic
 django-cyverse-auth
-atmo_logger
 rtwo
 
 raven
