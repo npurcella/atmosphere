@@ -48,7 +48,7 @@ uWSGI
 ## ours
 chromogenic
 django-cyverse-auth
-threepio
+atmo_logger
 rtwo
 
 raven
