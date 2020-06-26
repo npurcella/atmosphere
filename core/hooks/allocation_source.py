@@ -1,7 +1,7 @@
 import uuid
 
 from django.conf import settings
-from threepio import logger
+from atmo_logger import logger
 
 from core.models import (
     AllocationSource, Instance, AtmosphereUser, UserAllocationSnapshot,

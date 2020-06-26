@@ -12,7 +12,7 @@ from rtwo.exceptions import LibcloudInvalidCredsError, LibcloudBadResponseError
 from socket import error as socket_error
 
 from rtwo.exceptions import ConnectionFailure
-from threepio import logger
+from atmo_logger import logger
 
 from core.exceptions import ProviderNotActive
 from core.models.license import License

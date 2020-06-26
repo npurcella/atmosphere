@@ -30,7 +30,7 @@ from keystoneauth1.exceptions.http import Unauthorized as KeystoneauthUnauthoriz
 from requests.exceptions import ConnectionError
 from hashlib import sha256
 
-from threepio import logger
+from atmo_logger import logger
 from rtwo.drivers.common import _connect_to_openstack_sdk
 from rtwo.drivers.openstack_network import NetworkManager
 from rtwo.drivers.openstack_user import UserManager

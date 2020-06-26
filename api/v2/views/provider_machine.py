@@ -13,7 +13,7 @@ from core.query import (
 from api.v2.serializers.details import ProviderMachineSerializer
 from api.v2.views.base import OwnerUpdateViewSet
 from api.v2.views.mixins import MultipleFieldLookup
-from threepio import logger
+from atmo_logger import logger
 
 
 def get_admin_machines(user):

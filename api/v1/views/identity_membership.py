@@ -3,7 +3,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from rest_framework import status
 from rest_framework.response import Response
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models.group import Group, Identity
 from core.models import IdentityMembership as CoreIdentityMembership

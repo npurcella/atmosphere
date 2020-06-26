@@ -5,7 +5,7 @@ from memoize import memoize
 
 from .exceptions import TASAPIException
 
-from threepio import logger
+from atmo_logger import logger
 
 
 def tacc_api_post(url, post_data, username=None, password=None, timeout=None):

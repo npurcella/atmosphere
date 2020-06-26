@@ -7,7 +7,7 @@ from datetime import datetime
 
 from django.http import HttpResponseRedirect
 
-from threepio import logger
+from atmo_logger import logger
 
 from django.conf import settings
 from django_cyverse_auth.decorators import atmo_login_required

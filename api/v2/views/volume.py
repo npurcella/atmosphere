@@ -17,7 +17,7 @@ from core.models.volume import Volume, find_volume
 from core.query import only_current_source
 from service.volume import create_volume_or_fail, destroy_volume_or_fail, update_volume_metadata
 from service.exceptions import OverQuotaError
-from threepio import logger
+from atmo_logger import logger
 
 UPDATE_METHODS = ("PUT", "PATCH")
 CREATE_METHODS = ("POST", )

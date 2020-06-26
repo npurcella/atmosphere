@@ -1,5 +1,5 @@
 from django.db.models import Q
-from threepio import logger
+from atmo_logger import logger
 from requests.exceptions import Timeout
 
 from jetstream.allocation import TASAPIDriver, fill_user_allocation_source_for

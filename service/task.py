@@ -2,7 +2,7 @@
 Atmosphere service tasks methods
 
 """
-from threepio import logger
+from atmo_logger import logger
 
 from service.exceptions import VolumeMountConflict, InstanceDoesNotExist
 

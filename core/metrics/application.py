@@ -2,7 +2,7 @@ import pickle
 import collections
 import redis
 
-from threepio import logger
+from atmo_logger import logger
 from core.models import Instance
 
 METRICS_CACHE_DURATION = 4 * 24 * 60 * 60    # 4 days (persist over the weekend)

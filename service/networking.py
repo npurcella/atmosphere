@@ -12,7 +12,7 @@ from rtwo.exceptions import NeutronClientException, NeutronNotFound
 from service.driver import get_account_driver
 
 from django.conf import settings
-from threepio import logger
+from atmo_logger import logger
 
 
 def topology_list():

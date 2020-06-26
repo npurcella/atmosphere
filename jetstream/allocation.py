@@ -10,7 +10,7 @@ from .tas_api import tacc_api_post, tacc_api_get
 from core.models import EventTable
 from core.models.allocation_source import AllocationSource, UserAllocationSource
 
-from threepio import logger
+from atmo_logger import logger
 
 
 class TASAPIDriver(object):

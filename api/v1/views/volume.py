@@ -12,7 +12,7 @@ from rtwo.exceptions import ConnectionFailure
 from rtwo.exceptions import LibcloudInvalidCredsError, LibcloudBadResponseError
 from libcloud.common.exceptions import BaseHTTPError
 
-from threepio import logger
+from atmo_logger import logger
 
 from api.exceptions import (
     failure_response, inactive_provider, member_action_forbidden

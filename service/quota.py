@@ -1,4 +1,4 @@
-from threepio import logger
+from atmo_logger import logger
 
 from django.core.exceptions import ValidationError
 

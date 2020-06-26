@@ -7,7 +7,7 @@ from django.db import models, IntegrityError
 from django.db.models import Q
 from django.utils import timezone
 from django.contrib.auth.models import AnonymousUser
-from threepio import logger
+from atmo_logger import logger
 from django.core.exceptions import ObjectDoesNotExist as DoesNotExist
 
 from core.models.provider import AccountProvider

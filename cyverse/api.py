@@ -1,6 +1,6 @@
 import requests
 
-from threepio import logger
+from atmo_logger import logger
 from django.conf import settings
 
 

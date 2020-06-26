@@ -17,7 +17,7 @@ from core.hooks.allocation_source import (
     listen_for_allocation_source_compute_allowed_changed,
     listen_for_allocation_source_removed, listen_for_instance_allocation_removed
 )
-from threepio import logger
+from atmo_logger import logger
 
 
 class EventTable(models.Model):

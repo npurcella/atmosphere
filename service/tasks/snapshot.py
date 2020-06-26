@@ -4,7 +4,7 @@ Manage snapshots for volumes and images
 from celery.decorators import task
 from celery.exceptions import SoftTimeLimitExceeded
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models import Identity
 from core.models.volume import convert_esh_volume

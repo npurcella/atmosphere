@@ -2,7 +2,7 @@ from django.db import models
 from django.db.models import Q
 from core.models.user import AtmosphereUser
 
-# from threepio import logger
+# from atmo_logger import logger
 
 
 class MatchType(models.Model):

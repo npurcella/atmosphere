@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.template.loader import render_to_string
 
-from threepio import logger
+from atmo_logger import logger
 
 from django_cyverse_auth.protocol.ldap import lookupEmail
 

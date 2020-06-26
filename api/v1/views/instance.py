@@ -6,7 +6,7 @@ from rtwo.exceptions import (
 from rest_framework import status
 from rest_framework.response import Response
 from socket import error as socket_error
-from threepio import logger
+from atmo_logger import logger
 
 from core.exceptions import ProviderNotActive
 from core.models import AtmosphereUser as User

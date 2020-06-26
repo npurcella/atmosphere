@@ -9,7 +9,7 @@ from django.db.models.signals import post_save
 from django.utils import timezone
 from core.plugins import ValidationPluginManager, ExpirationPluginManager, DefaultQuotaPluginManager, AccountCreationPluginManager
 from core.query import only_current
-from threepio import logger
+from atmo_logger import logger
 from django.utils.translation import ugettext_lazy as _
 
 

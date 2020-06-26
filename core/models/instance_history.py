@@ -10,7 +10,7 @@ from django.contrib.postgres.fields import JSONField
 
 from django.utils import timezone
 
-from threepio import logger
+from atmo_logger import logger
 
 
 class InstanceStatus(models.Model):

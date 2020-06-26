@@ -1,6 +1,6 @@
 import cPickle as pickle
 import redis
-from threepio import logger
+from atmo_logger import logger
 
 from service.driver import get_esh_driver, get_admin_driver
 

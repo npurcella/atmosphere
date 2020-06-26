@@ -4,7 +4,7 @@ from django.db.models import Q
 from django.contrib.auth.models import AnonymousUser
 from django.utils import timezone
 
-from threepio import logger
+from atmo_logger import logger
 
 from django.conf import settings
 

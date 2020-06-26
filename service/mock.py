@@ -7,7 +7,7 @@ import uuid
 import random
 import warlock
 
-from threepio import logger
+from atmo_logger import logger
 
 from rtwo.models.instance import Instance
 from rtwo.models.size import MockSize

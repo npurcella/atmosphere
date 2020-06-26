@@ -2,7 +2,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework import exceptions as rest_exceptions
 from django.utils.translation import ugettext_lazy as _
-from threepio import logger, api_logger
+from atmo_logger import logger, api_logger
 
 
 def bad_request(errors, prefix="", status_code=None):

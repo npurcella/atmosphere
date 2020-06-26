@@ -5,7 +5,7 @@ Atmosphere service notification rest api.
 from rest_framework import status
 from rest_framework.response import Response
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.email import send_instance_email
 from core.models.instance import Instance as CoreInstance

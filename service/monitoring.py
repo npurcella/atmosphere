@@ -4,7 +4,7 @@ from django.core.exceptions import ObjectDoesNotExist
 import pytz
 from django.db.models import Q
 from django.utils import timezone
-from threepio import logger
+from atmo_logger import logger
 from core.models import AccountProvider
 from core.models.credential import Credential
 from core.models import InstanceStatusHistory

@@ -14,7 +14,7 @@ from rtwo.models.machine import MockMachine
 from rtwo.models.size import MockSize
 from rtwo.models.size import OSSize
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models.identity import Identity
 from core.models.instance_source import InstanceSource

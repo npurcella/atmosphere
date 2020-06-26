@@ -5,7 +5,7 @@ Atmosphere API's extension of DRF permissions.
 from django.contrib.auth.models import AnonymousUser
 from rest_framework import permissions
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models.cloud_admin import CloudAdministrator, cloud_admin_list, get_cloud_admin_for_provider
 from core.models import (

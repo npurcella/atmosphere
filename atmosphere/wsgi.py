@@ -30,7 +30,7 @@ os.environ["ANSIBLE_LOCAL_TEMP"] = "/tmp/.ansible"
 # Failure to do so will result in 500 error, exception output in the
 # apache logs.
 from django.conf import settings
-from threepio import logger
+from atmo_logger import logger
 if not logger:
     import logging
     logger = logging.getLogger(__name__)

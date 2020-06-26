@@ -6,7 +6,7 @@ from django.db import models
 
 from core.models import Instance
 
-from threepio import logger
+from atmo_logger import logger
 
 
 class InstanceAction(models.Model):

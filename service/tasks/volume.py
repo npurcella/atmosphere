@@ -5,7 +5,7 @@ import time
 from django.utils import timezone
 from celery.decorators import task
 
-from threepio import celery_logger
+from atmo_logger import celery_logger
 from rtwo.driver import EucaDriver, OSDriver
 
 from service.driver import get_driver

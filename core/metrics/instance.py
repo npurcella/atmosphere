@@ -9,7 +9,7 @@ import requests
 
 from rest_framework.exceptions import NotFound
 
-from threepio import logger
+from atmo_logger import logger
 
 # The hyper-stats service fetches metrics every minute
 CACHE_DURATION = 60

@@ -4,7 +4,7 @@ import json
 from django.conf import settings
 from django.utils.timezone import datetime, now
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models import Provider, Identity
 from service.driver import get_account_driver

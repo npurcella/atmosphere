@@ -20,7 +20,7 @@ from core.email import requestImaging
 
 from service.machine import share_with_admins, share_with_self, remove_duplicate_users
 from service.tasks.machine import start_machine_imaging
-from threepio import logger
+from atmo_logger import logger
 
 
 class MachineRequestViewSet(BaseRequestViewSet):

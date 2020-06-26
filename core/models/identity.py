@@ -6,7 +6,7 @@ Note:
 from django.db import models
 from django.db.models import Q
 
-from threepio import logger
+from atmo_logger import logger
 from uuid import uuid4
 from core.query import only_active_memberships, contains_credential
 from core.models.quota import Quota

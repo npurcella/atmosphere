@@ -8,7 +8,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
 
-from threepio import logger
+from atmo_logger import logger
 
 from service.driver import prepare_driver
 

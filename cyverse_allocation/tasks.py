@@ -5,7 +5,7 @@ from celery.decorators import task
 from django.conf import settings
 from django.utils import timezone
 from django.utils.timezone import datetime
-from threepio import celery_logger as logger
+from atmo_logger import celery_logger as logger
 
 from core.models import EventTable
 from core.models.allocation_source import AllocationSourceSnapshot, AllocationSource, UserAllocationSnapshot, \

@@ -15,7 +15,7 @@ from .allocation import (
 from .exceptions import TASPluginException
 from .models import TASAllocationReport
 
-from threepio import logger
+from atmo_logger import logger
 
 
 @task(name="monitor_jetstream_allocation_sources")

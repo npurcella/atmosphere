@@ -8,7 +8,7 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 from django.core.exceptions import MultipleObjectsReturned, ObjectDoesNotExist as DoesNotExist
-from threepio import logger
+from atmo_logger import logger
 
 from core.models.abstract import BaseSource
 from core.models.instance_source import InstanceSource, update_instance_source_size

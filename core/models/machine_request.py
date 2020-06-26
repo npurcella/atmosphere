@@ -20,7 +20,7 @@ from core.models.provider import Provider
 from core.models.application_version import ApplicationVersion
 
 from atmosphere.settings import secrets
-from threepio import logger
+from atmo_logger import logger
 from core.models.abstract import BaseRequest
 from core.exceptions import RequestLimitExceeded
 from functools import reduce

@@ -9,7 +9,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import Group as DjangoGroup
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models.application import Application
 from core.models.identity import Identity

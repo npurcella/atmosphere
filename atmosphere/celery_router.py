@@ -1,4 +1,4 @@
-from threepio import logger
+from atmo_logger import logger
 from atmosphere.celery_init import app as current_app
 
 # Ripped from asksol answer --See

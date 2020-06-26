@@ -2,7 +2,7 @@ import uuid
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
-from threepio import logger
+from atmo_logger import logger
 
 from core.models import EventTable, AllocationSource, AtmosphereUser, UserAllocationSource
 

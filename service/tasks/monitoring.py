@@ -38,7 +38,7 @@ from rtwo.models.size import OSSize
 from rtwo.exceptions import GlanceConflict, GlanceForbidden
 from libcloud.common.exceptions import BaseHTTPError
 
-from threepio import celery_logger
+from atmo_logger import celery_logger
 
 
 def strfdelta(tdelta, fmt=None):

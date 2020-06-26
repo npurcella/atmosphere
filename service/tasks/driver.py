@@ -17,7 +17,7 @@ from rtwo.exceptions import LibcloudInvalidCredsError, LibcloudBadResponseError
 from rtwo.exceptions import NonZeroDeploymentException, NeutronBadRequest
 from neutronclient.common.exceptions import IpAddressGenerationFailureClient
 
-from threepio import celery_logger, status_logger, logger
+from atmo_logger import celery_logger, status_logger, logger
 
 from celery import current_app as app
 

@@ -14,7 +14,7 @@ from api.v2.serializers.details import TokenSerializer
 from django_cyverse_auth.models import get_or_create_token
 from atmosphere.settings import secrets
 from core.models import AtmosphereUser
-from threepio import logger
+from atmo_logger import logger
 
 
 class TokenEmulateViewSet(ViewSet):

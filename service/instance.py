@@ -10,7 +10,7 @@ from django.utils.timezone import datetime
 from celery.result import AsyncResult
 from atmosphere.celery_init import app
 
-from threepio import logger, status_logger
+from atmo_logger import logger, status_logger
 
 from rtwo.models.provider import (AWSProvider, EucaProvider, OSProvider)
 from rtwo.exceptions import (

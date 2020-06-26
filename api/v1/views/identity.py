@@ -1,7 +1,7 @@
 from rest_framework import status
 from rest_framework.response import Response
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models.identity import Identity as CoreIdentity
 from core.models.provider import Provider

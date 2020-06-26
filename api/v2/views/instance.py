@@ -22,7 +22,7 @@ from service.tasks.driver import destroy_instance
 from service.instance import (
     launch_instance, run_instance_action, update_instance_metadata
 )
-from threepio import logger
+from atmo_logger import logger
 # Things that go bump
 from api.v2.exceptions import (
     failure_response, invalid_creds, connection_failure

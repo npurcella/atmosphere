@@ -5,7 +5,7 @@ import enum
 from django.utils.module_loading import import_string
 from django.core.exceptions import ImproperlyConfigured
 from django.conf import settings
-from threepio import logger
+from atmo_logger import logger
 
 
 def load_plugin_class(plugin_path):

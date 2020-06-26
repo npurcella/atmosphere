@@ -4,7 +4,7 @@ from django.contrib.auth.admin import UserAdmin as AuthUserAdmin
 from django.contrib.auth.models import Group as DjangoGroup
 from django.contrib.sessions.models import Session as DjangoSession
 from django.utils import timezone
-from threepio import logger
+from atmo_logger import logger
 
 from core import email
 from core import models

@@ -13,7 +13,7 @@ from rtwo.models.provider import EucaProvider, OSProvider
 from core.validators import validate_timezone
 
 from uuid import uuid4
-from threepio import logger
+from atmo_logger import logger
 
 
 class PlatformType(models.Model):

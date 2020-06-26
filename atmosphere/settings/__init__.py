@@ -302,42 +302,42 @@ atmo_logger.initialize(
     dep_logging_level=DEP_LOGGING_LEVEL
 )
 # Add handler to the remaining loggers
-threepio.status_logger = threepio\
+atmo_logger.status_logger = atmo_logger\
         .initialize("atmosphere_status",
                     handlers=[status_fh],
                     app_logging_level=LOGGING_LEVEL,
                     dep_logging_level=DEP_LOGGING_LEVEL,
                     global_logger=False,
                     format=base_format)
-threepio.email_logger = threepio\
+atmo_logger.email_logger = atmo_logger\
         .initialize("atmosphere_email",
                     handlers=[email_fh],
                     log_filename=EMAIL_LOG_FILENAME,
                     app_logging_level=LOGGING_LEVEL,
                     dep_logging_level=DEP_LOGGING_LEVEL,
                     global_logger=False)
-threepio.api_logger = threepio\
+atmo_logger.api_logger = atmo_logger\
         .initialize("atmosphere_api",
                     handlers=[api_fh],
                     log_filename=LOG_FILENAME,
                     app_logging_level=LOGGING_LEVEL,
                     dep_logging_level=DEP_LOGGING_LEVEL,
                     global_logger=False)
-threepio.auth_logger = threepio\
+atmo_logger.auth_logger = atmo_logger\
         .initialize("atmosphere_auth",
                     handlers=[auth_fh],
                     log_filename=LOG_FILENAME,
                     app_logging_level=LOGGING_LEVEL,
                     dep_logging_level=DEP_LOGGING_LEVEL,
                     global_logger=False)
-threepio.deploy_logger = threepio\
+atmo_logger.deploy_logger = atmo_logger\
         .initialize("atmosphere_deploy",
                     handlers=[deploy_fh],
                     log_filename=DEPLOY_LOG_FILENAME,
                     app_logging_level=LOGGING_LEVEL,
                     dep_logging_level=DEP_LOGGING_LEVEL,
                     global_logger=False)
-threepio.celery_logger = threepio\
+atmo_logger.celery_logger = atmo_logger\
         .initialize("atmosphere_celery",
                     log_filename=LOG_FILENAME,
                     app_logging_level=LOGGING_LEVEL,

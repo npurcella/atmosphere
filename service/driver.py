@@ -5,7 +5,7 @@ from core.models import AtmosphereUser as User
 from core.models.identity import Identity as CoreIdentity
 from core.models.provider import Provider as CoreProvider
 
-from threepio import logger
+from atmo_logger import logger
 
 from rtwo.models.provider import AWSProvider, AWSUSEastProvider,\
     AWSUSWestProvider, EucaProvider,\

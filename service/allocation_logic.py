@@ -3,7 +3,7 @@ import datetime
 import pytz
 from dateutil.parser import parse
 from django.db.models.query import Q
-from threepio import logger
+from atmo_logger import logger
 
 from core.models import EventTable
 from core.models.allocation_source import AllocationSource

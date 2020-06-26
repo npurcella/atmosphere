@@ -5,7 +5,7 @@ Atmosphere service user rest api.
 from rest_framework.response import Response
 from rest_framework import status
 
-from threepio import logger
+from atmo_logger import logger
 
 from atmosphere.settings import secrets
 from django_cyverse_auth.models import get_or_create_token

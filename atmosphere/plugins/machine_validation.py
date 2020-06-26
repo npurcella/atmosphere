@@ -1,6 +1,6 @@
 from django.conf import settings
 
-from threepio import logger
+from atmo_logger import logger
 
 
 class MachineValidationPlugin(object):

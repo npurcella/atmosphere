@@ -4,7 +4,7 @@ Atmosphere service group rest api.
 """
 from rest_framework.response import Response
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models.group import Group as CoreGroup
 

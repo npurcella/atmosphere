@@ -5,7 +5,7 @@ Service layer for managing machines
 from functools import reduce
 import operator
 
-from threepio import logger
+from atmo_logger import logger
 
 from core import models
 from core.query import only_current_source

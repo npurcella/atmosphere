@@ -7,7 +7,7 @@ import copy
 from rest_framework.response import Response
 from rest_framework import status
 
-from threepio import logger
+from atmo_logger import logger
 
 from chromogenic.tasks import instance_export_task
 

@@ -1,6 +1,6 @@
 from rest_framework import status
 from rest_framework.response import Response
-from threepio import logger
+from atmo_logger import logger
 
 from api.v2.exceptions import failure_response
 from api.v2.serializers.details import InstanceAllocationSourceSerializer

@@ -1,4 +1,4 @@
-from threepio import logger
+from atmo_logger import logger
 
 from django.core.exceptions import ValidationError
 from core.models.quota import get_quota, has_storage_count_quota

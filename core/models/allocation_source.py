@@ -4,7 +4,7 @@ from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models
 from django.utils import timezone
-from threepio import logger
+from atmo_logger import logger
 from uuid import uuid4
 
 

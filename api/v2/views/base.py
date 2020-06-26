@@ -1,5 +1,5 @@
 from functools import wraps
-from threepio import logger
+from atmo_logger import logger
 from django.utils import timezone
 
 from rest_framework import exceptions, status

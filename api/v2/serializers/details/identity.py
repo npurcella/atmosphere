@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from threepio import logger
+from atmo_logger import logger
 
 from core.models import Identity, Quota
 from api.v2.serializers.summaries import (

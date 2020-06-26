@@ -361,7 +361,7 @@ LOGSTASH_PORT = -1
 {%- endif %}
 try:
     import logstash
-    import threepio
+    import atmo_logger
     has_logstash = True
 except ImportError:
     has_logstash = False
@@ -378,7 +378,7 @@ os.environ["LIBCLOUD_DEBUG_PRETTY_PRINT_RESPONSE"] = "True"
 if has_logstash and LOGSTASH_HOST:
     fh = logstash.TCPLogstashHandler(LOGSTASH_HOST, LOGSTASH_PORT,
                                      message_type='atmo-deploy', version=1)
-    threepio.deploy_logger.addHandler(fh)
+    atmo_logger.deploy_logger.addHandler(fh)
 
 
 # NEW RELIC
