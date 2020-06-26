@@ -6,7 +6,7 @@ import json
 
 from django.http import HttpResponse
 
-from threepio import logger
+from atmo_logger import logger
 
 from django.conf import settings
 from core.models.instance import Instance
